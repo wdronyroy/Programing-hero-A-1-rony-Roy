@@ -1,0 +1,40 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto ;
+    box-sizing: border-box;
+}
+
+.Nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Nav-container .logo{
+    width: 139px;
+    height: 60px;
+
+}
+
+.Nav-container .menu ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+
+}
+.Nav-container .menu a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Early-access-btn{
+    background-color: #30B868;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 12.5px 16px;
+    cursor: pointer;
+}
