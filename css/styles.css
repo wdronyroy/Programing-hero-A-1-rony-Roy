@@ -263,3 +263,33 @@ color: rgb(255, 0, 0);}
     line-height: 24px;
     padding: 15px;
 }
+
+/* Footer section css start from here */
+.Footer-bg{
+        background-color: #001931;
+}
+#footer-container{
+
+    display: flex;
+    height: 348px;
+    text-align: center;
+    padding-top: 120px;
+}
+#footer-container p{
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+
+.divider{
+    width: 1360px;
+    height: 1px;
+    background: rgba(247, 247, 247, 0.863);
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+.Footer-bg p {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
