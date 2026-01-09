@@ -154,7 +154,7 @@ color: rgb(255, 0, 0);}
 
 /* Solution Content CSS start from here */
 #solution-container{
-    margin-top: 120px;
+    margin-top: 40px;
     display: flex;
     max-width: 1360px;
 }
@@ -185,5 +185,58 @@ color: rgb(255, 0, 0);}
     color: #627382;
     padding-bottom: 20px;
 }
+#solution-container .solution-content-container .list-item{
+    display: flex;
+    justify-content: center;
+}
 
+#solution-container .style{
+    padding: 8px 0px; 
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin-left: -90px;
+}
+#solution-container .style p{
+    font-size: 16px;
+    margin-left: -85px;
+}
 
+#solution-container .style-1{
+    padding: 8px 0px; 
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin-left: -78px;
+}
+#solution-container .style-1 p{
+    font-size: 16px;
+    margin-left: -70px;
+}
+
+#solution-container .style-2{
+    padding: 8px 0px; 
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin-left: -78px;
+}
+#solution-container .style-2 p{
+    font-size: 16px;
+    margin-left: -70px;
+}
+
+#solution-container .style-3{
+    padding: 8px 0px; 
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin-left: -125px;
+}
+#solution-container .style-3 p{
+    
+    margin-left: -120px;
+    font-size: 16px;
+}
+
+/*  */
