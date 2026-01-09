@@ -32,6 +32,7 @@
 }
 .Early-access-btn:hover{
     background-color:rgb(0, 68, 255);
+    color: red;
 }
 
 .Early-access-btn{
@@ -53,6 +54,19 @@
     background-repeat: no-repeat;
     text-align: center;
 }
+.access-btn{
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #30B868;
+    cursor: pointer;
+}
+.access-btn:hover{
+    background-color:rgb(0, 68, 255);
+    color: red;
+}
+
 .hero-section h1{
     margin: 25.5px 120px auto 120px;
     font-size: 55px;
@@ -89,6 +103,87 @@
     cursor: pointer;
 }
 .hero-section .second-button:hover{
-background-color:rgb(0, 68, 255);}
+background-color:rgb(0, 68, 255);
+color: rgb(255, 0, 0);}
+
 
 /* Card Section CSS Start Here */
+.Card-container{
+    padding: 36px;
+}
+.card-content{
+    text-align: center;
+}
+.card-content h3{
+    font-size: 48px;
+    font-weight: bold;
+}
+.card-content p{
+    font-size: 16px;
+    color: #627382;
+    margin: 10px;
+}
+.skill-box {
+    margin-top: 44px;
+    max-width: 1360px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.skill-box .card-section{
+    box-shadow: 0 6px 50px 0 #e2e1e1;
+    border-radius: 10px;
+    text-align: center;
+    padding: 24px;
+}
+.skill-box .card-section img{
+    margin-top: 20px;
+    background-color: #F95555;
+    padding: 8px;
+    border-radius: 50%;
+}
+.skill-box .card-section h3{
+    font-size: 24px;
+    font: 600;
+}
+.skill-box .card-section p{
+    color: #627382;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* Solution Content CSS start from here */
+#solution-container{
+    margin-top: 120px;
+    display: flex;
+    max-width: 1360px;
+}
+#solution-container .solution-image-container{
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+}
+#solution-container .solution-content-container{
+    text-align: left;
+    margin-top: 102px;
+}
+#solution-container .solution-content-container .solution {
+    color: #30B868;
+    font-size: 16px;
+    font: medium;
+    margin-bottom: 16px;
+
+}
+
+#solution-container .solution-content-container h1{
+    font: bold;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+#solution-container .solution-content-container .personal{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 20px;
+}
+
+
