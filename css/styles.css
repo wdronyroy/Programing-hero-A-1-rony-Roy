@@ -154,9 +154,11 @@ color: rgb(255, 0, 0);}
 
 /* Solution Content CSS start from here */
 #solution-container{
+    padding: 30px;
     margin-top: 40px;
     display: flex;
     max-width: 1360px;
+
 }
 #solution-container .solution-image-container{
     height: 600px;
@@ -239,4 +241,25 @@ color: rgb(255, 0, 0);}
     font-size: 16px;
 }
 
-/*  */
+/* Ready to think section css start from here */
+#ready-container{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: #e0d6d6;
+    padding: 50px;
+    text-align: center;
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 350px;
+}
+#ready-container h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+}
+#ready-container p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px;
+}
